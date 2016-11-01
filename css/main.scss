@@ -3,12 +3,12 @@
 ---
 @charset "utf-8";
 @import "materialize";
-@import "https://fonts.googleapis.com/css?family=Alegreya:700|Montserrat:300|Open+Sans:300,400|Sansita+One";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
 
 // Our variables
-$base-font-family: 'Roboto',sans-serif;
-$base-font-size:   20px;
+$base-font-family: 'Open Sans', sans-serif;
+$base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -44,9 +44,16 @@ $on-laptop:        800px;
     }
 }
 body{
-  background-color: #fcfcfc;
+  background: url(../images/fondo2.jpg)no-repeat center center fixed;
   word-wrap: normal;
   text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
 }
 
 .quienes{
@@ -77,25 +84,26 @@ color: white;
 
 h1{
   font-family: 'Farray', sans-serif;
-  color: #95CF16;
+  color: #FD4D17;
   margin: 0 1.424rem 0;
 
 }
 h2{
-  font-family: 'Montserrat', sans-serif;
-  color: #95CF16;
-  font-size: 3.5em;
+  font-family: 'Farray', sans-serif;
+  color: #FD4D17;
+  font-size: 2.5em;
 
 
 }
 h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Farray', sans-serif;
   font-weight: 300;
   letter-spacing: -2px;
 }
 
 nav{
-  height: 100px;
+  height: 120px;
+  background-color: #FD4D17;
   ul{
     li{
       padding-top: 20px;
@@ -103,6 +111,7 @@ nav{
     a{
       color: #fff;
       font-family: 'Farray', sans-serif;
+      font-size: 1.1em;
 
     }
     i.material-icons {
@@ -111,7 +120,7 @@ nav{
   }
 }
 img.logo{
-  height: 80px;
+  height: 100px;
   padding-top: 10px;
   padding-left: 40px;
 
@@ -130,7 +139,7 @@ img.logo{
 
   }
   .nav-home{
-    height: 100px;
+    height: 120px;
 
     img.logo{
       height: 80px;
@@ -151,7 +160,7 @@ img.logo{
 }
 #features{
   a{
-    color: #95CF16;
+    color: #FD4D17;
   }
   }
 .page-footer{
@@ -198,7 +207,7 @@ aside{
 .side-nav {
   width: 75%;
   a {
-      color: #95CF16;
+      color: #FD4D17;
   }
 }
 .section.no-pad-bot{
@@ -267,6 +276,11 @@ p.light.cardpanel.teal {
   }
   .row{
     margin-bottom: 0;
+    background-color: white;
+  }
+  .col{
+    margin-bottom: 0;
+    background-color: white;
   }
 
 }
@@ -279,7 +293,7 @@ p.light.cardpanel.teal {
 }
 .collapsible{
   i{
-    color: #95CF16;
+    color: #FD4D17;
   }
 }
 .post{
@@ -291,7 +305,7 @@ p.light.cardpanel.teal {
 }
 #nav-wrapper{
   i.material-icons{
-   color: #95CF16;
+   color: #FD4D17;
   }
 }
 .article{
@@ -354,7 +368,7 @@ nav .button-collapse i {
       margin-top: 200px;
     }
     .slider .indicators .indicator-item.active {
-        background-color: #95CF16;
+        background-color: #FD4D17;
     }
   }
 }
@@ -362,9 +376,16 @@ nav .button-collapse i {
     height: 15px;
     width: 15px;
     margin: 24px 8px;
+
   }
 .carousel .indicators .indicator-item.active {
-  background-color: #95CF16;
+  background-color: #FD4D17;
+}
+.carousel{
+  height: 600px;
+  img{
+    border: white 35px solid;
+  }
 }
 
 // .vcita{
@@ -384,7 +405,7 @@ nav .button-collapse i {
     font-size: 1.4em;
   }
   .card-link{
-    color: #95CF16;
+    color: #FD4D17;
     font-style: italic;
     font-weight: normal;
     // text-decoration: underline;
@@ -527,4 +548,38 @@ footer.page-footer{
 span.card-title {
     width: 100%;
     background-color: rgba(255,255,255,0.55);
+}
+.tour-description{
+      position: relative;
+      // display: flex;
+      // align-items: center;
+      // justify-content: center;
+    a{
+      margin-top: 10px;
+    }
+
+}
+.tour-description-item{
+    position: absolute;
+    bottom: 6em;
+      }
+.main{
+  margin: 0 auto;
+  width: 60%;
+  background-color:white;
+}
+#eventbrite{
+
+    border: none;
+
+}
+#quienessomos{
+  ul li{
+    list-style-type: disc;
+
+  }
+}
+.material-icons{
+  color: #86E00A;
+  font-size: 1.2em;
 }

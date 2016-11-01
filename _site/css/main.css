@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Alegreya:700|Montserrat:300|Open+Sans:300,400|Sansita+One";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
 .materialize-red { background-color: #e51c23 !important; }
 
@@ -2553,7 +2553,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .picker--time .picker__box { font-size: 1em; background: #f2f2f2; padding: 0; }
 
 @media (min-height: 40.125em) { .picker--time .picker__box { margin-bottom: 5em; } }
-body { background-color: #fcfcfc; word-wrap: normal; text-align: justify; }
+body { background: url(../images/fondo2.jpg) no-repeat center center fixed; word-wrap: normal; text-align: justify; font-family: 'Open Sans', sans-serif; font-size: 20px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 .quienes h3 { font-weight: 500; font-size: 1.3em; }
 
@@ -2565,29 +2565,29 @@ img.avatar-big { height: 150px; weight: 150px; }
 
 a#download-button { border: 2px white solid; border-radius: 5px; color: white; }
 
-h1 { font-family: 'Farray', sans-serif; color: #95CF16; margin: 0 1.424rem 0; }
+h1 { font-family: 'Farray', sans-serif; color: #FD4D17; margin: 0 1.424rem 0; }
 
-h2 { font-family: 'Montserrat', sans-serif; color: #95CF16; font-size: 3.5em; }
+h2 { font-family: 'Farray', sans-serif; color: #FD4D17; font-size: 2.5em; }
 
-h4 { font-family: 'Open Sans', sans-serif; font-weight: 300; letter-spacing: -2px; }
+h4 { font-family: 'Farray', sans-serif; font-weight: 300; letter-spacing: -2px; }
 
-nav { height: 100px; }
+nav { height: 120px; background-color: #FD4D17; }
 nav ul li { padding-top: 20px; }
-nav ul a { color: #fff; font-family: 'Farray', sans-serif; }
+nav ul a { color: #fff; font-family: 'Farray', sans-serif; font-size: 1.1em; }
 nav ul i.material-icons { color: white; }
 
-img.logo { height: 80px; padding-top: 10px; padding-left: 40px; }
+img.logo { height: 100px; padding-top: 10px; padding-left: 40px; }
 
 .nav-home.transparent { box-shadow: none; }
 
 .coverpage a { color: #fff; }
-.coverpage .nav-home { height: 100px; }
+.coverpage .nav-home { height: 120px; }
 .coverpage .nav-home img.logo { height: 80px; padding-top: 20px; }
 .coverpage .nav-home .right { padding-top: 1.5rem; }
 
 #download-button a { color: white; }
 
-#features a { color: #95CF16; }
+#features a { color: #FD4D17; }
 
 .page-footer h2 { font-size: 1.2em; color: white; }
 .page-footer .social ul li { list-style-type: none; }
@@ -2601,7 +2601,7 @@ header.post-header.center h1 { font-family: 'Alegreya', serif; color: #009688; m
 aside { padding-left: 30px; }
 
 .side-nav { width: 75%; }
-.side-nav a { color: #95CF16; }
+.side-nav a { color: #FD4D17; }
 
 .section.no-pad-bot .header.center.white-text { margin: 0; padding: 0; }
 .section.no-pad-bot .header.col.s12.white-text { margin: 0; padding: 0; }
@@ -2620,17 +2620,18 @@ p.light.cardpanel.teal, footer.page-footer p.cardpanel.teal.footer-copyright { c
 
 .card h5 { font-size: 1.4rem; }
 .card ul li { list-style-type: none; display: inline-block; padding: 0 8px; }
-.card .row { margin-bottom: 0; }
+.card .row { margin-bottom: 0; background-color: white; }
+.card .col { margin-bottom: 0; background-color: white; }
 
 .socialshare { line-height: 20px; }
 
 .btn-floating { overflow: visible; }
 
-.collapsible i { color: #95CF16; }
+.collapsible i { color: #FD4D17; }
 
 .post p.lead { font-size: 1.2em; font-style: italic; }
 
-#nav-wrapper i.material-icons { color: #95CF16; }
+#nav-wrapper i.material-icons { color: #FD4D17; }
 
 .article h2 { font-size: 2em; font-weight: 600; color: #009688; }
 .article ul li { list-style-type: circle; margin-left: 1em; }
@@ -2649,14 +2650,17 @@ nav .button-collapse i { color: #009688; height: 100px; }
 .slider .slides .caption.h5 { color: white; margin-top: 200px; }
 .slider .slides .light, .slider .slides footer.page-footer .footer-copyright, footer.page-footer .slider .slides .footer-copyright { color: black; }
 .slider .slides h5 { color: white; margin-top: 200px; }
-.slider .slides .slider .indicators .indicator-item.active { background-color: #95CF16; }
+.slider .slides .slider .indicators .indicator-item.active { background-color: #FD4D17; }
 
 .carousel .indicators .indicator-item { height: 15px; width: 15px; margin: 24px 8px; }
 
-.carousel .indicators .indicator-item.active { background-color: #95CF16; }
+.carousel .indicators .indicator-item.active { background-color: #FD4D17; }
+
+.carousel { height: 600px; }
+.carousel img { border: white 35px solid; }
 
 .grid-item a { color: #1F9687; font-weight: bold; font-size: 1.4em; }
-.grid-item .card-link { color: #95CF16; font-style: italic; font-weight: normal; }
+.grid-item .card-link { color: #FD4D17; font-style: italic; font-weight: normal; }
 .grid-item .card .card-content { padding: 13px; }
 .grid-item .c-content { padding-right: 15px; position: absolute; bottom: 10px; }
 .grid-item .excerpt { color: #000; font-weight: normal; padding: 10px 0; font-size: 0.7em; }
@@ -2681,3 +2685,16 @@ footer.page-footer { background-color: #000; }
 #llamar { font-size: 10px; color: white; }
 
 span.card-title { width: 100%; background-color: rgba(255, 255, 255, 0.55); }
+
+.tour-description { position: relative; }
+.tour-description a { margin-top: 10px; }
+
+.tour-description-item { position: absolute; bottom: 6em; }
+
+.main { margin: 0 auto; width: 60%; background-color: white; }
+
+#eventbrite { border: none; }
+
+#quienessomos ul li { list-style-type: disc; }
+
+.material-icons { color: #86E00A; font-size: 1.2em; }
